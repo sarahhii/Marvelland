@@ -1,0 +1,140 @@
+<MCU>
+    <MOVIE>
+        <POSTER>iron.jpg</POSTER>
+        <TITLE>Iron Man</TITLE>
+        <YEAR>2. Mai 2008</YEAR>
+        <PHASE>1</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>hulk.jpg</POSTER>
+        <TITLE>The incredible Hulk</TITLE>
+        <YEAR>12. Juni 2008</YEAR>
+        <PHASE>1</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>iron2.jpg</POSTER>
+        <TITLE>Iron Man 2</TITLE>
+        <YEAR>7. Mai 2010</YEAR>
+        <PHASE>1</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>thor.jpg</POSTER>
+        <TITLE>Thor</TITLE>
+        <YEAR>6. Mai 2011</YEAR>
+        <PHASE>1</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>captain.jpg</POSTER>
+        <TITLE>Captain America: The First Avenger</TITLE>
+        <YEAR>22. Juli 2011</YEAR>
+        <PHASE>1</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>avengers.jpg</POSTER>
+        <TITLE>The Avengers</TITLE>
+        <YEAR>4. Mai 2012</YEAR>
+        <PHASE>1</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>iron3.jpg</POSTER>
+        <TITLE>Iron Man 3</TITLE>
+        <YEAR>3. Mai 2013</YEAR>
+        <PHASE>2</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>thor2.jpg</POSTER>
+        <TITLE>Thor: The Dark World</TITLE>
+        <YEAR>8. November 2013</YEAR>
+        <PHASE>2</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>captain2.jpg</POSTER>
+        <TITLE>Captain America: The Winter Soldier</TITLE>
+        <YEAR>4. April 2014</YEAR>
+        <PHASE>2</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>guardians.jpg</POSTER>
+        <TITLE>Guardians of the Galaxy</TITLE>
+        <YEAR>1. August 2014</YEAR>
+        <PHASE>2</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>avengers2.jpg</POSTER>
+        <TITLE>Avengers: Age of Ultron</TITLE>
+        <YEAR>1. Mai 2015</YEAR>
+        <PHASE>2</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>ant.jpg</POSTER>
+        <TITLE>Ant-Man</TITLE>
+        <YEAR>17. Juli 2015</YEAR>
+        <PHASE>2</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>captain3.jpg</POSTER>
+        <TITLE>Captain America: Civil War</TITLE>
+        <YEAR>6. Mai 2016</YEAR>
+        <PHASE>3</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>doctor.jpg</POSTER>
+        <TITLE>Doctor Strange</TITLE>
+        <YEAR>4. November 2016</YEAR>
+        <PHASE>3</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>guardians2.jpg</POSTER>
+        <TITLE>Guardians of the Galaxy Vol.2</TITLE>
+        <YEAR>5. May 2017</YEAR>
+        <PHASE>3</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>spider.jpg</POSTER>
+        <TITLE>Spider-Man: Homecoming</TITLE>
+        <YEAR>7. Juli 2017</YEAR>
+        <PHASE>3</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>thor3.jpg</POSTER>
+        <TITLE>Thor: Ragnarok</TITLE>
+        <YEAR>3. November 2017</YEAR>
+        <PHASE>3</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>panther.jpg</POSTER>
+        <TITLE>Black Panther</TITLE>
+        <YEAR>16.Februar 2018</YEAR>
+        <PHASE>3</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>avengers3.jpg</POSTER>
+        <TITLE>Avengers: Infinity War</TITLE>
+        <YEAR>27. April 2018</YEAR>
+        <PHASE>3</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>ant2.jpg</POSTER>
+        <TITLE>Ant-Man and the Wasp</TITLE>
+        <YEAR>6. Juli 2018</YEAR>
+        <PHASE>3</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>marvel.jpg</POSTER>
+        <TITLE>Captain Marvel</TITLE>
+        <YEAR>8. März 2019</YEAR>
+        <PHASE>3</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>avengers4.jpg</POSTER>
+        <TITLE>Avengers: Endgame</TITLE>
+        <YEAR>26. April 2019</YEAR>
+        <PHASE>3</PHASE>
+    </MOVIE>
+    <MOVIE>
+        <POSTER>spider2.jpg</POSTER>
+        <TITLE>Spider-Man: Far From Home</TITLE>
+        <YEAR>2. Juli 2019</YEAR>
+        <PHASE>3</PHASE>
+    </MOVIE>
+</MCU>

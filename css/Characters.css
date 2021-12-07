@@ -1,0 +1,79 @@
+/*--- GENERAL STUFF ---*/
+
+/* main content size & position*/main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.accordion {
+    padding-top: 20px;
+}
+
+/*--- ACCORDION BASIC STRUCTURE---*/
+
+/* buttons that open and close the accordion panel */
+.charactersAccordion {
+    background-color: #575756;
+    color: white;
+    cursor: pointer;
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    border-bottom: 1px solid #7a000f;
+}
+
+
+/* accordion panel */
+.panel {
+    padding: 20px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+
+
+
+/*--- ACCORDION CONTENTS ---*/
+
+/* left side of the tables */
+.boldDescription {
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+/* character images */
+.characterImg {
+    float: right;
+    padding: 0 0 0 20px;
+
+    /*rounding off the corners*/
+    -moz-border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+
+    /*img starts at middle position*/
+    object-position: 50% 0;
+}
+
+
+
+
+/*--- TABLE CONTENT ---*/
+tr {
+    vertical-align: baseline;
+}
+
+/* right side of the table shall start at the bottom line if the left side takes up more than one line*/
+td:first-of-type + td {
+    vertical-align: bottom;
+}
+
+td {
+    padding-bottom: 4px;
+}
+
+

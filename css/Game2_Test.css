@@ -1,0 +1,127 @@
+/* --- Text & Questions --- */
+
+.quiz {
+    max-width: 835px;
+    margin: auto;
+    position: sticky;
+    background-color: #dadada;
+}
+
+.questions {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #7a000f;
+    font-size: 20px;
+}
+
+/* --- Answer Buttons --- */
+
+
+.title {
+    font-family: sans-serif;
+    color: #dc2d5e;
+}
+
+.answers {
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.image {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Hiding the Radio Buttons */
+
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+[type=radio]:checked + img {
+    outline: 4px solid #7a000f;
+
+}
+
+/* Overlay with Answertext & Fade Instructions */
+
+.text {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+.overlayFade {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #ff946bbd;
+}
+
+.overlay {
+    position: absolute;
+    opacity: 0;
+    transition: all .3s ease;
+    background-color: #575756;
+}
+
+.container:hover .overlay,
+.container:hover .overlayFade {
+    opacity: 1;
+}
+
+
+/* --- The Solution Container --- */
+
+/* The Button & Hovereffect */
+
+.getPoints {
+    background-color: #7a000f;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.getPoints:hover {
+    border: #7a000f;
+    cursor: pointer;
+}
+
+/* The actuall Container */
+
+.solution {
+    background-color: #7a000f;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/* The Anwertext */
+
+.answer {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+}

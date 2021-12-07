@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel land – Quiz</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link type="text/css" href="css/main.css" rel="stylesheet" />
+    <link type="text/css" href="css/Game1_Quiz.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body id=body>
+    <header>
+        <img src="images/logo.png" id="logo" alt="logo">
+    </header>
+    <nav class="topnav">
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="Characters.html">Charaktere</a>
+            <a href="Games.html" class="active">Spiele</a>
+            <a href="About.html">Das Team</a>
+        </div>
+    </nav>
+
+    <main>
+        <h1>Noch so ein Marvel-Quiz...</h1>
+        <p>Du glaubst du kennst dich im Marvel-Universum gut aus? <br />Finden wir es heraus...</p>
+        <p><b>Gesamtanzahl Fragen:</b> 10<br />
+            <b>Maximale Punktzahl:</b> 100<br /></p>
+        <p>Ob du eine Frage richtig beantwortet hast, kannst du unterhalb des Fortschritt-Balkens sehen. Dort werden deine Punkte direkt addiert.</p>
+        <p class="paddingBottom">Dort wird dir, sobald du das Quiz einmal durch hast und es erneut startest, auch dein vorheriges Ergebnis angezeigt.</p>
+
+        <hr />
+        <button id="start">Starte das Quiz</button>
+
+        <div id="content">
+            <div id="question"></div>
+            <div id="answers"></div>
+            <br />
+            <div>
+                <button id="next">Weiter</button>
+                <div id='dontSkip'>
+                    Bitte wähle erst eine Antwort und klicke dann auf weiter.
+                </div>
+            </div>
+        </div>
+        <hr />
+
+        <div id="scoreDiv">
+            <p class="centered" id="score"></p>
+            <p class="centered" id="resultGood">Yay ein richtiger Marvel-Experte!<img src="images/Game1_Quiz/img11_resultGood.gif" class="resultImg"></p>
+            <p class="centered" id="resultOk">Gar nicht mal soooo schlecht!<img src="images/Game1_Quiz/img12_resultOk.gif" class="resultImg"></p>
+            <p class="centered" id="resultBad">Da ist wohl noch Luft nach oben.<img src="images/Game1_Quiz/img13_resultBad.gif" class="resultImg"></p>
+            <button id="startagain">Versuchs nochmal!</button>
+        </div>
+
+        <div id="progressDiv">
+            <p><br /></p>
+
+            <p id="questCount">Dein Fortschritt:</p>
+            <p></p>
+
+            <div id="barDiv" class="progress">
+                <div id="bar" class="progress-bar" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="100" style="width:1%">
+                </div>
+            </div>
+
+            <p id="finalScore1"></p>
+        </div>
+
+    </main>
+
+    <script type="text/javascript" src="scripts/Game1_Quiz.js"></script>
+    <noscript>Ihr Browser versteht leider kein Javascript</noscript>
+    <footer id="footer">
+        <p><a href="Impressum.html">Impressum </a> © 2019 marvelland</p>
+    </footer>
+</body>
+
+</html>

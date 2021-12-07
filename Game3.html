@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel land – Memory</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link type="text/css" href="css/main.css" rel="stylesheet" />
+    <link type="text/css" href="css/Game3.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body id=body>
+    <header>
+        <img src="images/logo.png" id="logo">
+    </header>
+    <nav class="topnav">
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="Characters.html">Charaktere</a>
+            <a href="Games.html" class="active">Spiele</a>
+            <a href="About.html">Das Team</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <h1>Das etwas andere Marvel Memory Game</h1>
+
+        <br>
+
+        <p>Finde die passenden Paare!</p>
+
+        <br>
+
+
+        <!--The memory game-->
+        <section class="memory-game">
+
+            <!--Every pair of memory cards includes two different pictures  plus the logo for the back-face twice. The dada-framework is for matching the right pair.-->
+            <div class="memory-card" data-framework="WinterSoldier">
+                <img class="front-face" src="images/Game3/WinterSoldier.jpg" alt="Winter Soldier" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+            <div class="memory-card" data-framework="WinterSoldier">
+                <img class="front-face" src="images/Game3/WinterSoldier_close.jpg" alt="Winter Soldier" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+
+            <div class="memory-card" data-framework="CaptainAmerica">
+                <img class="front-face" src="images/Game3/Captain-America.jpg" alt="CaptainAmerica" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logoe" />
+            </div>
+            <div class="memory-card" data-framework="CaptainAmerica">
+                <img class="front-face" src="images/Game3/Captain-America_close.jpg" alt="CaptainAmerica" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+
+            <div class="memory-card" data-framework="Groot">
+                <img class="front-face" src="images/Game3/Groot.jpg" alt="Groot" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+            <div class="memory-card" data-framework="Groot">
+                <img class="front-face" src="images/Game3/Groot_close.jpg" alt="Groot" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+
+            <div class="memory-card" data-framework="IronMan">
+                <img class="front-face" src="images/Game3/Iron-Man.jpg" alt="IronMan" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+            <div class="memory-card" data-framework="IronMan">
+                <img class="front-face" src="images/Game3/Iron-Man_close.jpg" alt="IronMan" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+
+            <div class="memory-card" data-framework="Heimdall">
+                <img class="front-face" src="images/Game3/Heimdall2.jpg" alt="BHeimdall" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+            <div class="memory-card" data-framework="Heimdall">
+                <img class="front-face" src="images/Game3/Heimdall2_close.jpg" alt="Heimdall" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+
+            <div class="memory-card" data-framework="StarLord">
+                <img class="front-face" src="images/Game3/Star-Lord.jpg" alt="StarLord" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+            <div class="memory-card" data-framework="StarLord">
+                <img class="front-face" src="images/Game3/Star-Lord_close.jpg" alt="Starlord" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+
+            <div class="memory-card" data-framework="NightMonkey">
+                <img class="front-face" src="images/Game3/Night-Monkey2.jpg" alt="NightMonkey" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+            <div class="memory-card" data-framework="NightMonkey">
+                <img class="front-face" src="images/Game3/Night-Monkey2_close.jpg" alt="NightMonkey" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+
+            <div class="memory-card" data-framework="Loki">
+                <img class="front-face" src="images/Game3/Loki2.jpg" alt="Loki" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+            <div class="memory-card" data-framework="Loki">
+                <img class="front-face" src="images/Game3/Loki2_close.jpg" alt="Loki" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+
+            <div class="memory-card" data-framework="Strange">
+                <img class="front-face" src="images/Game3/Doctor-Strange2.jpg" alt="Strange" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+            <div class="memory-card" data-framework="Strange">
+                <img class="front-face" src="images/Game3/Doctor-Strange2_close.jpg" alt="Strange" />
+                <img class="back-face" src="images/Game3/back-face.svg" alt="ML Logo" />
+            </div>
+
+
+        </section>
+
+        <!--button to reload the side and play again-->
+        <button id="startagain">Nochmal</button>
+
+    </main>
+
+    <script type="text/javascript" src="scripts/Game3.js"></script>
+    <noscript>Ihr Browser versteht leider kein Javascript</noscript>
+    <footer id="footer">
+        <p><a href="Impressum.html">Impressum </a>
+            © 2019 marvelland</p>
+    </footer>
+
+</body>
+
+</html>

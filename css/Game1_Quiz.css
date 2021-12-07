@@ -1,0 +1,210 @@
+/*--- 
+Reading Info:
+Q = Question
+A = Answers
+---*/
+
+
+/*--- GENERAL STUFF ---*/
+
+/* main content size & position */
+main {
+    max-width: 1000px;
+    margin: auto;
+    width: 80%;
+}
+
+/* more space between start-Text and actual Quiz */
+.paddingBottom {
+    padding-bottom: 20px;
+}
+
+/* centering the results */
+.centered {
+    text-align: center;
+}
+
+/* horizontal row over and under the actual Quiz*/
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    color: #a5a5a4;
+}
+
+/* footer with impressum link */
+#footer {
+    padding-top: 50px;
+}
+
+
+/*--- BUTTONS ---*/
+
+button {
+    background-color: #7a000f;
+}
+
+button:hover {
+    background-color: #575756;
+    color: white;
+}
+
+/* General styles for start, next & start again Button */
+#start,
+#next,
+#startagain {
+    border: none;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+}
+
+/* Start Button */
+#start {
+    height: 50px;
+    width: 200px;
+    margin: 40px 40px 40px 0px;
+}
+
+/* Next Button */
+#next {
+    padding: 12px 42px 12px 42px;
+    margin: 0px 20px 20px 0px;
+    float: left;
+}
+
+/* Start Again Button */
+#startagain {
+    padding: 12px 42px;
+    margin: 4px 2px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/*--- CHECKBOXES ---*/
+
+/* checkbox container for answers */
+.checkmarkContainer {
+    font-size: 18px;
+}
+
+/* checkboxes for answers */
+.checkmark {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+/* positioning the label right next to the radio button. When text takes 2 lines, both lines stay on the right side of the radio button (and not the 2nd underneath the button) */
+label {
+    display: block;
+    margin: -24px 0 -14px 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*--- QUESTION, Q-IMAGE & ANSWERS ---*/
+
+/* div wrapper containing Q-img + Q +As */
+#content {
+    overflow: auto;
+}
+
+/* div containing Q-img + Q */
+#question {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+/* Q */
+#question > p {
+    margin: 0px 0px 5px 0px;
+    height: 39px;
+}
+
+/* img elem belonging to the Q */
+.qImg {
+    float: right;
+    margin: 0px 0px 0px 20px;
+
+    /* img fits in specified width + height*/
+    object-fit: cover;
+    width: 400px;
+    height: 310px;
+
+    /*img starts at most right position*/
+    object-position: 100% 0;
+
+    /*rounding off the corners*/
+    -moz-border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+#answers {
+    overflow: auto;
+}
+
+
+
+
+/* Information telling user not to skip questions */
+#dontSkip {
+    position: left;
+    color: #7a000f;
+
+}
+
+/*--- PROGRESS BAR ---*/
+
+#progressDiv {
+    position: left;
+    padding-top: 0px;
+}
+
+#barDiv {
+    width: 100%;
+    height: 15px;
+    background-color: #c3c3c2;
+}
+
+#bar {
+    height: 15px;
+    background-color: #7a000f;
+}
+
+
+
+/*--- RESULT ---*/
+
+/* images that come with the result */
+.resultImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    /*img fits in specified width + height*/
+    object-fit: cover;
+    width: 400px;
+    height: 310px;
+
+    /*img starts at most right position*/
+    object-position: 100% 0;
+}
+

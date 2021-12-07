@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel land</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link type="text/css" href="css/main.css" rel="stylesheet" />
+    <link type="text/css" href="css/index.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+</head>
+
+<body id=body>
+    <header>
+        <img src="images/logo.png" id="logo">
+    </header>
+    <nav class="topnav">
+        <div class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="Characters.html">Charaktere</a>
+            <a href="Games.html">Spiele</a>
+            <a href="About.html">Das Team</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- Main Container -->
+
+        <div class="center">
+
+            <!-- Slideshow Float -->
+
+            <div class="sliders">
+                <h2>Alle vergangenen Filme ...</h2>
+
+                <!-- XML - Slideshow -->
+                <div class="slideshow-old">
+
+                    <!-- For Movie Poster -->
+                    <div id="movie"></div><br>
+
+                    <!-- For Movie Information -->
+                    <div id="text"></div><br>
+
+                    <!-- Previous / Next Buttons -->
+                    <a class="prev" onclick="previous()">&#10094;</a>
+                    <a class="next" onclick="next()">&#10095;</a>
+                </div>
+
+
+                <h2>Die nächste Phase ...</h2>
+                <div class="slideshow-soon">
+
+                    <!-- Simple Slideshow with numbered Images -->
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 5</div>
+                        <img src="images/index/soon/blackwidow.jpg" style="width:300px">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 5</div>
+                        <img src="images/index/soon/eternals.jpg" style="width:300px">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 5</div>
+                        <img src="images/index/soon/shang.jpg" style="width:300px">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="images/index/soon/doctorstrange.jpg" style="width:300px">
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="images/index/soon/thor.jpg" style="width:300px">
+                    </div>
+
+                    <!-- The same Previous / Next Buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+            </div>
+
+            <!-- Text Container -->
+            <div class="content">
+                <h1>Willkommen in Marvelland!</h1>
+                <br>
+                <br>
+                <p>Marvelland dreht sich rund um das MCU, das Marvel Cinematic Universe. Hier findest du eine Übersicht über die wichtigsten Charaktere und eine Reihe an passenden Spielen.<br><br>
+                    Rechts kannst du alle bisherigen Filme sehen und darunter die, die in naher Zukunft ins Kino kommen. Insgesammt erschienen bereits 23 Filme, seit das Abenteuer 2008 mit Iron Man began.</p>
+                <br>
+
+
+                <!-- Spoiler Container -->
+                <div id="spoiler">
+                    Was bisher geschah ...
+                    <br>
+                    <button type="button" class="spoiler" onclick="getspoilers()">Achtung Spoiler!</button>
+                </div>
+            </div>
+
+
+            <!-- Twitter Container -->
+            <div class="tweet">
+                <a class="twitter-timeline" data-width="500" data-height="500" href="https://twitter.com/MarvelStudios?ref_src=twsrc%5Etfw">Tweets by MarvelStudios</a>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+    <noscript>Ihr Browser versteht leider kein Javascript</noscript>
+
+    <footer id="footer">
+        <p><a href="impressum.html">Impressum </a>
+            © 2019 marvelland</p>
+    </footer>
+</body>
+
+</html>

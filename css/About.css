@@ -1,0 +1,64 @@
+/*--- GENERAL STUFF ---*/
+html {
+    box-sizing: border-box;
+}
+
+/* main content size & position*/
+main {
+    max-width: 1000px;
+    margin: auto;
+    width: 80%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* 3 columns*/
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 20px;
+    padding: 0px 30px 20px 0px;
+}
+
+/* displaying the columns below each other instead of next to each other on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* shadow for the cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* padding inside the container*/
+.aboutContainer {
+    padding: 0 12px;
+}
+
+/* stops following content from floating around the containers */
+.aboutContainer::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* name elements */
+.title {
+    color: #a5a5a4;
+    font-style: italic;
+}
+
+.profileImage {
+    /*img fits in specified width + height*/
+    object-fit: cover;
+    width: 400px;
+    height: 310px;
+}

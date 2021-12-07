@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel land – Charaktertest</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <link type="text/css" href="css/main.css" rel="stylesheet" />
+    <link type="text/css" href="css/Game2_Test.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body id="body">
+    <header>
+        <img src="images/logo.png" id="logo">
+    </header>
+    <nav class="topnav">
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a href="Characters.html">Charaktere</a>
+            <a href="Games.html" class="active">Spiele</a>
+            <a href="About.html">Das Team</a>
+        </div>
+    </nav>
+
+    <main class="quiz">
+
+
+        <form id="quiz">
+
+            <h1>Charaktertest</h1>
+            <h3>Welche Marvel-Powerfrau bist du?</h3>
+            <br>
+            <br>
+
+            <!-- The quiz. -->
+            <p class="questions">Wie alt fühlst du dich?</p>
+
+            <!-- Each question in its own div. -->
+
+            <div class="answers">
+
+                <!-- Each div contains four labels for each answer possibility. -->
+                <label class="container">
+
+                    <!-- Each label contains a radio button, the actuall image and the overlay including the overlay text. -->
+
+                    <input type="radio" name="age" value="0" checked>
+                    <img src="images/Game2_Test/age.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Wie ein Kind.</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="age" value="50">
+                    <img src="images/Game2_Test/age.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Jünger als ich bin.</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="age" value="100">
+                    <img src="images/Game2_Test/age.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Älter als ich bin.</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="age" value="150">
+                    <img src="images/Game2_Test/age.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Genau so alt wie ich bin.</div>
+                    </div>
+                </label>
+            </div>
+
+            <p class="questions">Welche Farbe gefällt dir am Besten?</p>
+
+            <div class="answers">
+                <label class="container">
+                    <input type="radio" name="color" value="50" checked>
+                    <img src="images/Game2_Test/colorrosa.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Rosa</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="color" value="150">
+                    <img src="images/Game2_Test/colorrot.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Rot</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="color" value="0">
+                    <img src="images/Game2_Test/colorwei%C3%9F.png" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Weiß</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="color" value="100">
+                    <img src="images/Game2_Test/colorschwarz.png" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Schwarz</div>
+                    </div>
+                </label>
+            </div>
+
+            <p class="questions">Wähle eine Superkraft!</p>
+
+            <div class="answers">
+                <label class="container">
+                    <input type="radio" name="power" value="100" checked>
+                    <img src="images/Game2_Test/power3.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Zeitreisen</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="power" value="0">
+                    <img src="images/Game2_Test/power1.png" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Gedankenlesen</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="power" value="50">
+                    <img src="images/Game2_Test/power2.png" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Heilende Hände</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="power" value="150">
+                    <img src="images/Game2_Test/power4.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Unsichtbarkeit</div>
+                    </div>
+                </label>
+            </div>
+
+            <p class="questions">Woran denkst du morgens als erstes?</p>
+
+            <div class="answers">
+                <label class="container">
+                    <input type="radio" name="morning" value="0" checked>
+                    <img src="images/Game2_Test/morning1.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Meine To-Do Liste.</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="morning" value="100">
+                    <img src="images/Game2_Test/morning3.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Dinge die ich bereue.</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="morning" value="150">
+                    <img src="images/Game2_Test/morning4.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Viel zu früh! Ich leg mich noch mal hin.</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="morning" value="50">
+                    <img src="images/Game2_Test/morning2.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Meine Familie und Freunde.</div>
+                    </div>
+                </label>
+            </div>
+
+            <p class="questions">Wähle dein Sternzeichen.</p>
+
+            <div class="answers">
+                <label class="container">
+                    <input type="radio" name="zodiac" value="0" checked>
+                    <img src="images/Game2_Test/zodiac1.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Schütze, Widder &amp; Zwillinge</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="zodiac" value="50">
+                    <img src="images/Game2_Test/zodiac2.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Wassermann, Krebs &amp; Waage</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="zodiac" value="100">
+                    <img src="images/Game2_Test/zodiac3.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Steinbock, Jungfrau &amp; Skorpion</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="zodiac" value="150">
+                    <img src="images/Game2_Test/zodiac4.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Fische, Löwe &amp; Stier</div>
+                    </div>
+                </label>
+            </div>
+
+            <p class="questions">Welche Süßigkeit wählst du?</p>
+
+            <div class="answers">
+                <label class="container">
+                    <input type="radio" name="sugar" value="100" checked>
+                    <img src="images/Game2_Test/differentsugar.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Da bin ich recht wählerisch.</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="sugar" value="50">
+                    <img src="images/Game2_Test/milchshakes.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Milchshake</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="sugar" value="150">
+                    <img src="images/Game2_Test/schokolade.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Bitter Schokolade</div>
+                    </div>
+                </label>
+                <label class="container">
+                    <input type="radio" name="sugar" value="0">
+                    <img src="images/Game2_Test/gummib%C3%A4rchen.jpg" alt="Avatar" class="image">
+                    <div class="overlay overlayFade">
+                        <div class="text">Gummibärchen</div>
+                    </div>
+                </label>
+            </div>
+            <br>
+
+
+            <!-- Submit Button and Solution Container. -->
+
+            <div class="solution">
+                <button class="getPoints" type="submit" value="Submit">Wer bin ich?</button>
+                <p class="answer" id="answer"></p>
+            </div>
+
+        </form>
+
+    </main>
+
+    <script type="text/javascript" src="scripts/Game2_Test.js"></script>
+    <noscript>Ihr Browser versteht leider kein Javascript</noscript>
+    <footer id="footer">
+        <p><a href="impressum.html">Impressum </a>
+            © 2019 marvelland</p>
+    </footer>
+
+</body>
+
+</html>

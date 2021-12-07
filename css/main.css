@@ -1,0 +1,99 @@
+/*--- GENERAL STUFF ---*/
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #575756;
+}
+
+main {
+    padding: 30px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #dadada;
+    margin: 0;
+}
+
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+header {
+    width: 100%;
+    background-color: #7a000f;
+}
+
+footer {
+    text-align: center;
+}
+
+
+/* --- HEADING STYLES --- */
+h1,
+h2 {
+    color: #575756;
+    margin-top: 40px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+
+/* --- NAVIGATION BAR ---*/
+.topnav {
+    background-color: #7a000f;
+    overflow: hidden;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: block;
+    z-index: 2;
+    /* so it ALWAYS stays ontop (unless s.o. uses a higher z-index) */
+}
+
+
+/* --- LINK SYTLES --- */
+/* unvisited link */
+a:link {
+    color: #7a000f;
+    text-decoration: none;
+    /* not underlined */
+}
+
+/* visited link, mouse over link & geklickclicked link */
+a:visited,
+a:hover,
+a:active {
+    color: #575756;
+    text-decoration: none;
+}
+
+/* Style of nav-Links in nav bar >> Attention: top-nav-css-instructions must be located BELOW the general link-css-instructions to not be overwritten by them! */
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+
+/* color of nav-Links at hover */
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* color of active nav-Link */
+.topnav a.active {
+    background-color: #575756;
+    color: white;
+}
